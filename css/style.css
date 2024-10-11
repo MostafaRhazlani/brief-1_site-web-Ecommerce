@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root{
     --primary-color: #088178;
@@ -8,7 +8,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Spartan', sans-serif;
+    font-family: 'poppins';
 }
 
 html{
@@ -512,12 +512,12 @@ button.white{
 
 .contact {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: flex-end;
 }
 
 .box {
-    height: 100%;
+    height: 500px;
     width: 40%;
     background-color: #E3E6F3;
     padding: 30px;
@@ -535,6 +535,19 @@ button.white{
     outline: none;
 }
 
+.box textarea {
+    height: 6.125rem;
+    padding: 0 1.25rem;
+    margin-bottom: 20px;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    outline: none;
+}
+
+
+
 .questions {
     width: 540px;
     height: 100%;
@@ -548,7 +561,8 @@ button.white{
 }
 
 .questions p {
-    font-size: 20px;
+    font-size: 17px;
+    margin: 10px 0;
     
 }
 /*******---Footer Section Style---*******/
