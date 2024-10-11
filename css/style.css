@@ -517,7 +517,7 @@ button.white{
 }
 
 .box {
-    height: 500px;
+    height: 550px;
     width: 40%;
     background-color: #E3E6F3;
     padding: 30px;
@@ -546,7 +546,17 @@ button.white{
     outline: none;
 }
 
+.box .btn {
+    background-color: var(--primary-color);
+    color: #000;
+    transition: 1.2s;
+}
 
+.box .btn:hover {
+    background-color: #4fc9c3;
+    transition: 1.2s;
+    cursor: pointer;
+}
 
 .questions {
     width: 540px;
