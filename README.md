@@ -1,6 +1,5 @@
 # Cara-Ecommerce-Website
 
-Project context
 Contexte du projet
 
 ​
